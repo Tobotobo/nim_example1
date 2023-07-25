@@ -31,3 +31,8 @@ nimble install nigui
 nim c -r nigui_example1.nim
 nim c --app:gui -d:release nigui_example1.nim
 ```
+```
+nimble install nigui
+nim c -r nigui_example2.nim
+nim c --app:gui -d:release nigui_example2.nim
+```
